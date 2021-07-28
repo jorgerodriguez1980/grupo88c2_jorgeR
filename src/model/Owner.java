@@ -25,7 +25,7 @@ public class Owner extends User {
         else if(miWallet.getSaldo() < otraWallet.getSaldo()){
             return "La otra Wallet tiene mas saldo";
         }
-        else{return "Hubo un error"; }
+        else{return "Hubo un error"; }//java solicita esto por que si
     }
     
 }
